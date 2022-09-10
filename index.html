@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captain Jack</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3b714bf650.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div onmouseover="aparecer()" id="container">
+        <video id="music" src="captainjack.mp4"></video>
+
+        <div id="controle">
+            <i onclick="aumentar()" class="btn fa-solid fa-forward"></i>
+            <i onclick="avancar()" class="btn fa-sharp fa-solid fa-rotate-right"></i>
+            <i onclick="play()" class="btn fa-solid fa-play"></i>
+            <i onclick="pause()" class="btn fa-solid fa-pause"></i>
+            <i onclick="recuar()" class="btn fa-sharp fa-solid fa-rotate-left"></i>
+            <i onclick="diminuir()" class="btn fa-solid fa-backward"></i>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
